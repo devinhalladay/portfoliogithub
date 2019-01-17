@@ -1,0 +1,27 @@
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  padding-left: 1%;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.subpage__wrapper {
+  display: inline-table;
+}
+
+.publication {
+  max-width: 50%;
+}
+
+.colorbar {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  position: fixed;
+  bottom: 0;
+  background-color: blue;
+  width: 98.5%;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=publication.css.map */

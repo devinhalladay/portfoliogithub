@@ -1,0 +1,8 @@
+<nav>
+    <ul class="u-list-reset">
+        {% for div in collections.div %}
+        <li> <a class="div {% if (page.url==posts.url) %}is-active {% endif %}" href="{{ div.url}}">
+                {{div.data.title}}</a> </li>
+        {% endfor %}
+    </ul>
+</nav>
